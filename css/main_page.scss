@@ -1,0 +1,68 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+
+.banner {
+    height: 120px;
+    background-image: url(../images/image_processing20200410-15224-uorgq6.jpeg);
+    background-repeat: repeat-x;
+    background-size: 120px;
+}
+
+.img1 {
+    @include carousel_img( url(../images/76567756756756.jpg));
+}
+
+
+.img2 {
+    @include carousel_img( url(../images/47845674567_1.jpg));
+}
+
+.img3 {
+    @include carousel_img( url(../images/1233423423444gf1_1_1_1.jpg))
+}
+
+.img4 {
+    @include carousel_img( url(../images/48559a6ce9a4251b3bd0f4a6fde96a9e_1.jpg))
+}
+
+.img5 {
+    @include carousel_img( url(../images/iphone-13-product-red-select-2021_4.jpg))
+}
+
+.img6 {
+    @include carousel_img( url(../images/456456456_result_3.jpg))
+}
+
+.img7 {
+    @include carousel_img( url(../images/24358401580260.jpg))
+}
+
+.img8 {
+    @include carousel_img( url(../images/asus_laptop_x409_product_photo_1_4_.jpg))
+}
+
+.img9 {
+    @include carousel_img( url(../images/mi_redmibook_pro_14_1_1.jpg))
+}
+
+
+.card {
+    width: 220px;
+
+    & img {
+        max-height: 174px;
+        max-width: 100%;
+    }
+
+    & .card-title {
+        font-size: 1rem;
+    }
+
+    &:hover {
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+
+        transition: 0.2s;
+    }
+}

@@ -1,0 +1,96 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    // width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.black-color {
+    background-color: $black-color;
+}
+
+.gray-color {
+    background-color: $gray-color;
+}
+
+.white-color {
+    background-color: $white-color;
+}
+
+.primary-color {
+    background-color: $primary-color;
+}
+.secondary-color {
+    background-color: $secondary-color;
+}
+
+.additional-primary-color {
+    background-color: $additional-primary-color;
+}
+.additional-secondary-color {
+    background-color: $additional-secondary-color;
+}
+
+.text-black-color {
+    color: $black-color;
+}
+
+.text-gray-color {
+    color: $gray-color;
+}
+
+.text-white-color {
+    color: $white-color;
+}
+
+.text-primary-color {
+    color: $primary-color;
+}
+
+.text-secondary-color {
+    color: $secondary-color;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.harrow {
+    font-family: "Harlow Solid Italic", serif;
+}
+
+.arial-rounded {
+    font-family: "Arial Rounded MT Bold";
+}
+
+.btn {
+    &:focus {
+        box-shadow: 0 0 0 0.25rem rgba($primary-color, 0.25);
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+$_search_color: #a7a7a7;
+
+.my-search {
+    height: 28px;
+    border: 2px solid $_search_color;
+    border-radius: 20px;
+
+    width: 300px;
+
+    &:focus {
+        border: 2px solid $_search_color;
+        box-shadow: 0 0 0 0.25rem rgba($_search_color, 0.25);
+    }
+}

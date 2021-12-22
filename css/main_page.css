@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Harlow Solid Italic";
+  src: url(../fonts/Harlow\ Solid\ Regular.ttf); }
+@font-face {
+  font-family: "Arial Rounded MT Bold";
+  src: url(../fonts/arialroundedmtprocyr_bold.otf); }
+.banner {
+  height: 120px;
+  background-image: url(../images/image_processing20200410-15224-uorgq6.jpeg);
+  background-repeat: repeat-x;
+  background-size: 120px; }
+
+.img1 {
+  background-image: url(../images/76567756756756.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.img2 {
+  background-image: url(../images/47845674567_1.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.img3 {
+  background-image: url(../images/1233423423444gf1_1_1_1.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.img4 {
+  background-image: url(../images/48559a6ce9a4251b3bd0f4a6fde96a9e_1.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.img5 {
+  background-image: url(../images/iphone-13-product-red-select-2021_4.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.img6 {
+  background-image: url(../images/456456456_result_3.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.img7 {
+  background-image: url(../images/24358401580260.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.img8 {
+  background-image: url(../images/asus_laptop_x409_product_photo_1_4_.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.img9 {
+  background-image: url(../images/mi_redmibook_pro_14_1_1.jpg);
+  width: 30%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.card {
+  width: 220px; }
+  .card img {
+    max-height: 174px;
+    max-width: 100%; }
+  .card .card-title {
+    font-size: 1rem; }
+  .card:hover {
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
+    transition: 0.2s; }
+
+/*# sourceMappingURL=main_page.css.map */

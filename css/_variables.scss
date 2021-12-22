@@ -1,0 +1,39 @@
+$_black: #000000;
+$_white: #FFFFFF;
+$_oxford_blue: #14213D;
+$_orange_web: #FCA311;
+$_platinum: #E5E5E5;
+$_turquise: #81F4E1;
+$_vivid_sky_blue: #56CBF9;
+$_baby_blue_eyes: #9AC4F8;
+$_french_pink: #FF729F;
+
+$_rich_black: #042A2B;
+$_maximum_blue: #5EB1BF;
+$_light_cyan: #CDEDF6;
+$_mandarin: #EF7B45;
+$_vermilion: #D84727;
+
+
+$black-color: $_rich_black;
+$gray-color: $_platinum;
+$white-color: $_white;
+
+$primary-color: $_black;
+$secondary-color: $_white;
+$additional-primary-color: $_mandarin;
+$additional-secondary-color: $_vermilion;
+
+$_search_color: #a7a7a7;
+$success_color: $_turquise;
+
+@font-face {
+    font-family: "Harlow Solid Italic";
+    // src: url(../fonts/HARLOWSI.TTF);
+    src: url(../fonts/Harlow\ Solid\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "Arial Rounded MT Bold";
+    src: url(../fonts/arialroundedmtprocyr_bold.otf);
+}

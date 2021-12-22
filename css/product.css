@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Harlow Solid Italic";
+  src: url(../fonts/Harlow\ Solid\ Regular.ttf); }
+@font-face {
+  font-family: "Arial Rounded MT Bold";
+  src: url(../fonts/arialroundedmtprocyr_bold.otf); }
+.img-mini {
+  max-height: 100px;
+  max-width: 100px; }
+
+.img-big {
+  max-height: 400px;
+  max-width: 400px; }
+
+.my-cnt {
+  height: 28px;
+  border: 2px solid #a7a7a7;
+  border-radius: 10px;
+  width: 50px; }
+  .my-cnt:focus {
+    border: 2px solid #a7a7a7;
+    box-shadow: 0 0 0 0.25rem rgba(167, 167, 167, 0.25); }
+
+/*# sourceMappingURL=product.css.map */

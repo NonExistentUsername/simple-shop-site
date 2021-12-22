@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/main_page.css">
+    <link rel="icon" href="images/logo.svg">
+    <title>Головна сторінка</title>
+</head>
+<body class="arial-rounded bg-black bg-opacity-25">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Вхід</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5">
+                <form>
+                    <div class="mb-3">
+                      <label for="inputEmail" class="form-label">Електронна адреса</label>
+                      <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="inputPassword" class="form-label">Пароль</label>
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-success me-3">Вхід</button>
+                        <button type="button" class="btn btn-secondary">Реєстрація</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg secondary-color navbar-light shadow-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand harrow fs-3" href="index.html">Voldemort</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <form class="ms-auto d-flex">
+                    <input class="form-control my-auto me-2 my-search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit">
+                        <img src="images/icon-search.svg" alt="">
+                    </button>
+                </form>
+                <a href="cart.html" class="btn">
+                    Кошик
+                </a>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Аккаунт
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="container p-4 white-color shadow-lg">
+        <div class="row">
+            <div class="col-4 px-5">
+                <div class="fs-3 pb-4 pt-3">
+                    Категорії
+                </div>
+                <div class="d-flex flex-column">
+                    <a class="pb-4 my-href link-dark text-decoration-none" href="#">Смартфони та телефони</a>
+                    <a class="pb-4 my-href link-dark text-decoration-none" href="#">Телевізори та мультимедія</a>
+                    <a class="pb-4 my-href link-dark text-decoration-none" href="#">Побутова техніка</a>
+                    <a class="pb-4 my-href link-dark text-decoration-none" href="#">Ноутбуки, ПК та планшети</a>
+                    <a class="pb-4 my-href link-dark text-decoration-none" href="#">Apple</a>
+                    <a class="pb-4 my-href link-dark text-decoration-none" href="#">Xiaomi</a>
+                    <a class="pb-4 my-href link-dark text-decoration-none" href="#">Аудіо</a>
+                </div>
+            </div>
+            <div class="col-8 d-flex align-items-center flex-column">
+                <div class="fs-4">
+                    Акції
+                </div>
+                <div id="stockCarousel" class="carousel carousel-dark slide w-100 h-100" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#stockCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#stockCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#stockCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner w-100 h-100">
+                        <div class="carousel-item w-100 h-100 active">
+                            <div class="d-flex justify-content-around w-100 h-100">
+                                <div class="img1"></div>
+                                <div class="img2"></div>
+                                <div class="img3"></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item w-100 h-100">
+                            <div class="d-flex justify-content-around w-100 h-100">
+                                <div class="img4"></div>
+                                <div class="img5"></div>
+                                <div class="img6"></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item w-100 h-100">
+                            <div class="d-flex justify-content-around w-100 h-100">
+                                <div class="img7"></div>
+                                <div class="img8"></div>
+                                <div class="img9"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="fs-3 text-center mb-3">
+                Популярні
+            </div>
+            <div class="d-flex justify-content-around d-row flex-wrap">
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/76567756756756.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Xiaomi Redmi 10 4/128GB Grey</div>
+                        <a href="product.html" class="btn btn-success mx-0">5699 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/47845674567_1.jpg" alt="...">
+                        </div>
+                        <div class="card-title">POCO X3 Pro 6/128 Phantom Black</div>
+                        <a href="product.html" class="btn btn-success mx-0">7499 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/76567756756756.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Xiaomi Redmi 10 4/128GB Grey</div>
+                        <a href="product.html" class="btn btn-success mx-0">5699 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/76567756756756.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Xiaomi Redmi 10 4/128GB Grey</div>
+                        <a href="product.html" class="btn btn-success mx-0">5699 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/76567756756756.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Xiaomi Redmi 10 4/128GB Grey</div>
+                        <a href="product.html" class="btn btn-success mx-0">5699 ₴</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="w-100 banner">
+        </div>
+        <div class="d-flex flex-column">
+            <div class="fs-3">
+                Нові товари
+            </div>
+            <div class="d-flex justify-content-around d-row flex-wrap">
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around d-row flex-wrap">
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <img src="images/456456456_result_3.jpg" alt="...">
+                        </div>
+                        <div class="card-title">Samsung Galaxy Z Fold3 12/256 Green</div>
+                        <a href="product.html" class="btn btn-success mx-0">47999 ₴</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gray-color shadow-lg">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-4">
+                    <div class="d-flex align-items-center">
+                        <img class="logo" src="images/logo.svg" alt="">
+                        <div class="ps-lg-3 harrow fs-3">
+                            Voldemort
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="f-flex flex-column">
+                        <div class="fs-4 d-flex align-items-center">
+                            <img src="images/icon-phone.svg" width="24px" height="24px" alt="">
+                            <span class="ms-2">Зв'язатись з нами</span>
+                        </div>
+                        <div>
+                            +380971260984
+                        </div>
+                        <div>
+                            +380971260984
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 d-flex flex-column">
+                    <div class="fs-4 d-flex align-items-center">
+                        <img src="images/icon-smile.svg" width="24px" height="24px" alt="">
+                        <span class="ms-2">Спонсори</span>
+                    </div>
+                    <a href="https://telegram.org/" class="fst-italic text-black text-decoration-none">
+                        Telegram
+                    </a>
+                    <a href="https://www.foxtrot.com.ua/" class="fst-italic text-black text-decoration-none">
+                        Foxtrot
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

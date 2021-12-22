@@ -1,0 +1,26 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+
+.img-mini {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.img-big {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+
+.my-cnt {
+    height: 28px;
+    border: 2px solid $_search_color;
+    border-radius: 10px;
+
+    width: 50px;
+
+    &:focus {
+        border: 2px solid $_search_color;
+        box-shadow: 0 0 0 0.25rem rgba($_search_color, 0.25);
+    }
+}
